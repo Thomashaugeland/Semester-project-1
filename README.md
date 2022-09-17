@@ -2,6 +2,7 @@
 
 ## Description
 
+- First semester of Front-end education.
 - This is delivered as a semester project in html/css/java
 - Its supposed to show progress Noroff eduaction
 - Used as a portfolio
@@ -19,7 +20,7 @@
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Thomashaugeland/Noroff_Project_Exam_1.git
+https://github.com/Thomashaugeland/Semester-project-1.git
 ```
 
 2. Install the dependencies:
