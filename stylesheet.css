@@ -1,0 +1,353 @@
+body {
+      background-color: #FFD55A;
+      font-family: londrina solid, cursive, arial, tahoma;
+      font-size: 100%;
+      margin: 0;
+    }
+
+    h1 {
+      color: #293250;
+      font-size: 2em;
+      padding: 0.5em;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h2 {
+      color: white;
+      font-weight: lighter;
+      background-color: #293250;
+      font-size: 1.5em;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    h3 {
+      color: white;
+      font-weight: lighter;
+      background-color: #293250;
+      font-size: 1em;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    .logo {
+    text-align: center;
+    }
+
+    div.gallery {
+      border: 10px solid #ccc;
+      border-color: #293250;
+      margin:5%;
+    }
+
+    div.gallery:hover {
+      border: 10px solid #777;
+      border-color: #6DD47E;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+
+
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .responsive {
+      width: 100%;
+    }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+  .fullimage {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #293250;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+
+  input[type=submit] {
+    background-color: #6DD47E;
+    color: #293250;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: londrina solid;
+  }
+
+  input[type=submit]:hover {
+    background-color: #293250;
+    color: white;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Extra small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    color: #293250;
+    font-size: 1.5em;
+    padding: 0.5em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+    background-color: #293250;
+    font-size: 1em;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  h3 {
+    color: white;
+    background-color: #293250;
+    font-size: 1em;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  p {
+    color: #293250;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  footer {
+    font-size: 0.75em;
+    color: #293250;
+  }
+
+  .gallery {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #293250;
+  }
+
+  ul li a.active-page {
+    background-color:black;
+    color: #4CAF50;
+  }
+
+  ul li {
+    float: left;
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ ul li {
+   float: none;
+ }
+
+  ul li a:hover:not(.active) {
+    background-color: #111;
+    color: #6DD47E;
+  }
+
+  ul li a.active {
+    background-color: #4CAF50;
+  }
+}
+
+/* Small devices (600px and up) */
+@media only screen and (min-width: 600px) {
+
+  p {
+    color: #293250;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  footer {
+    font-size: 0.55em;
+    color: #293250;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #293250;
+  }
+
+  ul li a.active-page {
+    background-color:black;
+    color: #4CAF50;
+  }
+
+  ul li {
+    float: left;
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ ul li {
+   float: none;
+ }
+
+  ul li a:hover:not(.active) {
+    background-color: #111;
+    color: #6DD47E;
+  }
+
+  ul li a.active {
+    background-color: #4CAF50;
+  }
+}
+
+/* Large devices (992px and up) */
+@media only screen and (min-width: 768px) {
+  p {
+    color: #293250;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  footer {
+    font-size: 0.55em;
+    color: #293250;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #293250;
+  }
+
+  ul li a.active-page {
+    background-color:black;
+    color: #4CAF50;
+  }
+
+  ul li {
+    float: left;
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  ul li a.active {
+    background-color: #4CAF50;
+  }
+}
+
+
+/* Extra large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  p {
+    color: #293250;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #293250;
+  }
+
+  ul li a.active-page {
+    background-color:black;
+    color: #4CAF50;
+  }
+
+  ul li {
+    float: left;
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  ul li a.active {
+    background-color: #4CAF50;
+  }
+
+  ul li.right {
+    float: right;
+  }
+}
